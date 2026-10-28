@@ -1,0 +1,27 @@
+# -*- mode: gitignore -*-
+__pycache__/
+*.py[cod]
+*.pyo
+
+# 运行时产物
+运行日志.txt
+启动日志.txt
+launcher.log
+*.docx
+*.doc
+
+# 本地快捷方式（含本机绝对路径）
+*.lnk
+
+# 本地发布助手（只对自己有用）
+发布到GitHub.bat
+
+# 虚拟环境
+.venv/
+venv/
+
+# 编辑器
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
